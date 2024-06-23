@@ -55,3 +55,16 @@ console.log(array)
 // division(2016,4)
 
 
+// Print integers from 2000 to 5280, using a WHILE.
+
+
+x = 2000
+end = 5280
+myArray = []
+while (x < end){
+
+        x = x+1
+        num = x 
+        myArray.push(num)
+}
+    console.log(myArray)
