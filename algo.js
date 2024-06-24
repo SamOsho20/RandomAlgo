@@ -1,20 +1,3 @@
-// Set myNumber to 42. Set myName to your name. Now swap myNumber into myName & vice versa.
-
-
-// myNumber = 42 
-// myName = "sam"
-
-
-// tempName = myName
-// tempNum = myNumber
-// myName =tempNum
-// myNumber = tempName
-
-
-// console.log(myNumber)
-// console.log(myName)
-
-// Log positive numbers starting at 2016, counting down by fours (exclude 0), without a FOR loop.
 
 bigNum = 2016
 
@@ -60,11 +43,20 @@ console.log(array)
 
 x = 2000
 end = 5280
-myArray = []
+// myArray = []
 while (x < end){
 
         x = x+1
-        num = x 
-        myArray.push(num)
+        console.log(x)
+        // num = x 
+        // myArray.push(num)
 }
-    console.log(myArray)
+
+    lowNum = 2
+    highNum = 9
+    thisNum = 3
+
+    for (var x = highNum; x >lowNum; x = x-thisNum){
+        console.log(x)
+    }
+
